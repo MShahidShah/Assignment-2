@@ -202,3 +202,106 @@
 //    result = firstNumber % secondNumber;
 //    alert(result);
 // }
+
+
+
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+
+// ================IF...ELSE & ELSE IF STATEMENT,TESTING SET OF CONDITIONS=========
+
+// 1).
+// var input = prompt("Enter a character:");
+
+// if (input.length === 1) {
+//   var char = input.charCodeAt(0);
+
+//   if (char >= 48 && char <= 57) {
+//     console.log("The input is a number.");
+//   } else if (char >= 65 && char <= 90) {
+//     console.log("The input is an uppercase letter.");
+//   } else if (char >= 97 && char <= 122) {
+//     console.log("The input is a lowercase letter.");
+//   } else {
+//     console.log("The input is not a number or a letter.");
+//   }
+// } else {
+//   console.log("Please enter a single character.");
+// }
+
+//2).
+    // var integerNum1 = prompt("enter 1st integer");
+    // var integerNum2 = prompt("enter 2nd integer");
+    // var largerNum;
+
+    // if (integerNum1 === integerNum2){
+    //     console.log("Two Integers Are Equal");
+            
+    // } else { 
+    //     (largerNum = integerNum1 > integerNum2)
+    //          console.log(largerNum);
+    // }
+         
+//3).
+// var userInput = +prompt("Enter a Number");
+
+//     if (userInput > 0){
+//         console.log("The Number Is Posative");
+//     } else if (userInput < 0) {
+//         console.log("The Number Is Negative");
+//     } else { 
+//         console.log("The Number Is 0")
+//     }
+
+//4).
+// var character = prompt("Enter a vovel words:");
+
+// if (character.length === 1){
+//    var lowerChararacter = character.toLowerCase();
+// //    console.log(lowerChararacter);
+    
+//    if (lowerChararacter === "a" || lowerChararacter === "e" || lowerChararacter ==="i"
+//     || lowerChararacter === "o" || lowerChararacter === "u"){
+//     // if (lowerChararacter === "a" && lowerChararacter ==="e"){      
+//     console.log(true);
+//     }else {
+//         console.log(false);
+//     }
+
+// }
+
+//5).
+// var savePassword = "abc123";
+// var password = prompt("Enter your password");
+
+// if (! password){
+//     alert("Please enter your password");
+// } else if (savePassword === password) {
+//     alert("Correct! The password you entered matches the original password");
+// } else {
+//     alert("Incorrect password");
+// }
+
+//6).
+// var greetings;
+// var hour = 13;
+// if (hour < 18){
+//     greetings = "Good day";
+// }
+// else {
+//     greetings = "Good Evening";
+
+// } console.log(greetings);
+
+//7).
+// var time = +prompt("Enter a time for 24Hours fomat");
+
+// if(time >= 0 && time < 1200){
+//     console.log("Good Morning");
+// } else if (time >= 1200 && time < 1700) {
+//     console.log("Good Afternoon")
+// } else if (time >= 1700 && time < 2100) {
+//     console.log("Good Evening")
+// } else if (time >= 2100 && time <= 2359) {
+//     console.log("Good Night")
+// }
